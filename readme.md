@@ -21,12 +21,20 @@ The C++ TCP Proxy server implementation is compatible with the following C++
 compilers:
 
 * GNU Compiler Collection (4.1+)
-* Intel� C++ Compiler (9.x+)
+* Intel® C++ Compiler (9.x+)
 * Clang/LLVM (1.1+)
 * PGI C++ (10.x+)
 * Microsoft Visual Studio C++ Compiler (8.1+)
 * IBM XL C/C++ (10.x+)
 
+
+编译：
+yum install gcc-c++
+yum install boost-devel
+make
+
+执行：
+./tcpproxy_server  0.0.0.0  9999   远程服务器IP  远程服务器端口
 
 ----
 
