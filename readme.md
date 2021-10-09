@@ -30,6 +30,7 @@ compilers:
 
 编译：
 yum install gcc-c++
+
 yum install boost-devel
 make
 
